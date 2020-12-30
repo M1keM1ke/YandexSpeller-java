@@ -1,4 +1,4 @@
-#Yandex Speller wrapper  
+# Yandex Speller wrapper  
 
 #### Easy way to use this service  
 
