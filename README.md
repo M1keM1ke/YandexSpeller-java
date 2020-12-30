@@ -1,7 +1,8 @@
-#Yandex Speller wrapper
-####Easy way to use this service
+#Yandex Speller wrapper  
 
-#How to use
+#### Easy way to use this service  
+
+# How to use  
 Just include dependency and repository in your project pom file:
 ```
         <dependency>
@@ -19,14 +20,14 @@ Just include dependency and repository in your project pom file:
                </snapshots>
            </repository>
 ``` 
-#Quick Start
+# Quick Start  
 - Create YandexSpeller object
 - Create any Service object
 - Choose needful function
 - Send request
 - Congratulations! You're great!
 
-###Simple example
+#### Simple example  
 ```
        YandexSpeller yandexSpeller = new YandexSpeller();
            CheckTextService checkTextService = yandexSpeller.checkTextService();
@@ -39,6 +40,6 @@ Just include dependency and repository in your project pom file:
            }
 ```
 
-#Useful links
-You can visit the official website for more information about current methods of this API
+# Useful links
+You can visit the official website for more information about current methods of this API  
 [https://yandex.ru/dev/speller/doc/dg/concepts/api-overview.html](https://yandex.ru/dev/speller/doc/dg/concepts/api-overview.html)
